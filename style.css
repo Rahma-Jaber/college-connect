@@ -1,0 +1,146 @@
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, sans-serif;
+}
+body { 
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;     
+  padding: 15px 30px;
+  border-bottom: 1px solid ; 
+}
+.logo {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li{
+  margin: 0;
+}
+nav ul li a{
+  
+  padding: 14px 20px;
+  text-decoration: none;
+}
+nav ul li a:hover{
+font-weight: bold;
+}
+button{
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode a {
+  color: white;
+}
+
+/*welcome*/
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+}
+#welcome .card {
+  background: #3d6cb9;
+  color: #fff;
+  padding: 40px 30px;
+  width: 30000px;
+  border-radius: 10px;
+}
+#welcome .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: white;
+  color: #3d6cb9;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.photo{
+  float: right;
+}
+
+/*highlights*/
+.highlights {
+  padding: 50px 30px;
+}
+.highlights h2 {
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+}
+.cards .card {
+  padding: 20px;
+  margin:10px;
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ccc;
+}
+.cards .btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #3d6cb9;
+  color: #fff;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background: #3d6cb9;
+  color: white;
+  margin-top: 40px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #430297;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
